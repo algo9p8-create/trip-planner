@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 5000;
+    background-color: white;
+}
+header h1 {
+    margin-left: 150px;
+    color: #002b11;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 150px;
+}
+nav ul li {
+    list-style-type: none;
+    font-weight: 600;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+nav .login {
+    color: rgb(0, 43, 17);
+}
+nav .signup {
+    color: white;
+    padding: 15px 30px;
+    background-color: rgb(0, 43, 17);
+    border-radius: 28px;
+}
+.hero-section {
+    text-align: center;
+    margin-top: 200px;
+}
+.hero-section h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(0, 43, 17);
+}
+.hero-section .p1{
+    max-width: 600px;
+    margin: 5px auto;
+    font-size: 1.1rem;
+    color: rgb(108, 117, 125);
+}
+.hero-section-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.hero-section-div button {
+    color: white;
+    background-color: rgb(0, 19, 7);
+    border-radius: 28px;
+    border: 1px solid rgb(0, 19, 17);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 15px 30px;
+    display: block;
+}
+.hero-section-div .p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(73, 80, 87);
+    font-weight: 700;
+}
+.hero-section-div .p2 a {
+    display: flex;
+    align-items: center;
+    color: rgb(73, 80, 87);
+}
+.about-us .ctn1 {
+    margin-top: 150px;
+}
+.about-us .ctn1 h1{
+    color: rgb(0, 7, 3);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-us .ctn1 h1 span {
+    color: rgb(200, 160, 255);
+}
+.about-us .ctn1 p {
+    color: rgb(73, 80, 87);
+    margin: 0px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.about-us .ctn1 p span {
+    color: black;
+    font-weight: 700;
+}
+.about-us .ctn2 {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.about-us .ctn2 .div1 {
+    margin-left: 150px;
+    max-width: 480px;
+}
+.about-us .ctn2 .div1 h1 {
+    margin-bottom: 10px;
+    font-size: 1.875;
+    line-height: 2.25rem;
+    max-width: fit-content;
+    background-color: rgba(220, 255, 160, 0.7);
+}
+.about-us .ctn2 .div1 p{
+    font-weight: 500;
+    color: rgb(73, 80, 87);
+    line-height: 1.25rem;
+}
+.about-us .ctn2 .div1 p .italic {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 400;
+}
+.about-us .ctn2 .div1 p .black-span {
+    color: black;
+    font-weight: 600;
+}
+.about-us .ctn2 .div2 img {
+    margin-top: -30px;
+}
+
+
+

@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 50%);
+    
+}
+.wrapper {
+    padding: 40px 45px;
+    background-color: white;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.185);
+    border-radius: 7px;
+}
+.wrapper h1 {
+    font-size: 2rem;
+    color: rgb(0, 43, 17);
+    margin-bottom: 20px;
+    /* font-weight: 700; */
+}
+.Welcome_back-p {
+    color: rgb(0, 43, 17);
+    font-size: 2rem; 
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+form {
+    position: relative;
+    margin-top: 35px;
+}
+.form-ctn {
+    display: flex;
+    flex-direction: column;
+}
+form .ctn-1 {
+    margin-bottom: 10px;
+}
+label {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: rgb(0, 43, 17);
+}
+input {
+    width: 300px;
+    height: 35px;
+    border: 2px solid #768a79;
+    border-radius: 4px;
+    padding: 5px;
+}
+form img {
+    position: absolute;
+    top: 80%;
+    left: 90%;
+}
+.forgot_password-p a {
+    text-decoration-color: rgb(0, 43, 17);
+    font-size: 0.85rem;
+    color: rgb(0, 43, 17);
+}
+button {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    height: 45px;
+    color: white;
+    background-color: #143c24;
+    border: 1px solid #143c24;
+    border-radius: 28px;
+    outline: none;
+}
+hr {
+    width: 80px;
+    height: 1px;
+}
+.hr-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hr-ctn p {
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+.join {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 43, 17);
+    font-size: 0.85rem; 
+}
+.join a {
+    color: rgb(0, 43, 17);
+    font-weight: 700;
+}
