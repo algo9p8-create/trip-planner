@@ -10,14 +10,16 @@ body{
     align-items: center;
     justify-content: center;
     font-family: "Inter", sans-serif;
-    background-color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 0%, 100%);
+    /* background-color: hsl(0, 0%, 50%); */
     
 }
 .wrapper {
     padding: 40px 45px;
     background-color: white;
-    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.185);
+    box-shadow: 0px 15px 24px rgba(0, 0, 0, 0.185);
     border-radius: 7px;
+    opacity: 1;
 }
 .wrapper h1 {
     font-size: 2rem;
@@ -55,17 +57,26 @@ input {
     border-radius: 4px;
     padding: 5px;
 }
-form img {
+form .visibility-img-btn {
     position: absolute;
-    top: 80%;
+    top: 35%;
     left: 90%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+form .visibility-img-btn:active {
+    background-color: rgba(173, 216, 230, 0.062);
+}
+form #visibility-off {
+    display: none;
 }
 .forgot_password-p a {
     text-decoration-color: rgb(0, 43, 17);
     font-size: 0.85rem;
     color: rgb(0, 43, 17);
 }
-button {
+#loginbtn {
     display: block;
     margin: 15px auto;
     width: 200px;
@@ -75,6 +86,7 @@ button {
     border: 1px solid #143c24;
     border-radius: 28px;
     outline: none;
+    cursor: pointer;
 }
 hr {
     width: 80px;

@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>signup</title>
-</head>
-<body>
-    <div class="wrapper">
-        <h1>Travel Lite</h1>
-        <p class="Welcome_back-p">Join to unlock the best<br>of Travelite.</p>
-        <form>
-            <div class="form-ctn ctn-1">
-                <label>Email address</label> 
-                <input type="email" placeholder="Email" required>
-            </div>
-           <div class="form-ctn ctn-1">
-            <label>Create a password</label>
-            <input type="password" placeholder="Password" required>
-            <img src="images/visibility-icon.png" width="20px">
-           </div>
-        </form>
-        <button type="submit">Join</button>
-        <div class="hr-ctn">
-            <hr>
-            <p>Already a member?</p>
-            <hr>
-        </div>
-        <p class="join"><a href="login.html">Sign in</a> using your Travelite account.</p>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="signup.css" />
+		<title>signup</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1><img src="images\flight-icon.png" />Travel Lite</h1>
+			<p class="Welcome_back-p">
+				Join to unlock the best<br />of Travelite.
+			</p>
+			<form>
+				<div class="form-ctn ctn-1">
+					<label>Email address</label>
+					<input type="email" placeholder="Email" required />
+				</div>
+				<div class="form-ctn ctn-1">
+					<label>Create a password</label>
+					<input
+						type="password"
+						placeholder="Password"
+						required
+						id="password"
+					/>
+					<button
+						class="visibility-img-btn"
+						type="button"
+						id="visibility-on"
+					>
+						<img src="images/visibility-icon.png" width="20px" />
+					</button>
+					<button
+						class="visibility-img-btn"
+						type="button"
+						id="visibility-off"
+					>
+						<img
+							src="images\visibility-icon-off.png"
+							width="20px"
+						/>
+					</button>
+				</div>
+				<button type="submit" id="signup-btn">Join</button>
+				<div class="hr-ctn">
+					<hr />
+					<p>Already a member?</p>
+					<hr />
+				</div>
+				<p class="join">
+					<a href="login.html">Sign in</a> using your Travelite
+					account.
+				</p>
+			</form>
+		</div>
+		<script src="toggle.js"></script>
+	</body>
 </html>

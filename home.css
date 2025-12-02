@@ -1,152 +1,313 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 body {
-    font-family: "Inter", sans-serif;
-    background-color: white;
+  font-family: "Inter", sans-serif;
+  background-color: white;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 5000;
-    background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 5000;
+  background-color: white;
 }
 header h1 {
-    margin-left: 150px;
-    color: #002b11;
+  margin-left: 150px;
+  color: rgb(0, 43, 17);
 }
 nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-right: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 150px;
 }
 nav ul li {
-    list-style-type: none;
-    font-weight: 600;
+  list-style-type: none;
+  font-weight: 600;
 }
 nav a {
-    text-decoration: none;
-    font-size: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
 }
 nav .login {
-    color: rgb(0, 43, 17);
+  /* color: rgb(0, 43, 17); */
+  color: black;
 }
 nav .signup {
-    color: white;
-    padding: 15px 30px;
-    background-color: rgb(0, 43, 17);
-    border-radius: 28px;
+  color: white;
+  padding: 15px 30px;
+  background-color: rgb(0, 43, 17);
+  border-radius: 28px;
 }
 .hero-section {
-    text-align: center;
-    margin-top: 200px;
+  text-align: center;
+  margin-top: 250px;
 }
 .hero-section h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: rgb(0, 43, 17);
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: rgb(0, 43, 17);
+  /* color: rgb(1, 14, 6); */
 }
-.hero-section .p1{
-    max-width: 600px;
-    margin: 5px auto;
-    font-size: 1.1rem;
-    color: rgb(108, 117, 125);
+.hero-section .p1 {
+  max-width: 600px;
+  margin: 5px auto;
+  font-size: 1.1rem;
+  color: rgb(108, 117, 125);
 }
 .hero-section-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
 }
 .hero-section-div button {
-    color: white;
-    background-color: rgb(0, 19, 7);
-    border-radius: 28px;
-    border: 1px solid rgb(0, 19, 17);
-    font-weight: 600;
-    font-size: 1rem;
-    padding: 15px 30px;
-    display: block;
+  color: white;
+  background-color: rgb(0, 19, 7);
+  border-radius: 28px;
+  border: 1px solid rgb(0, 19, 17);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 15px 30px;
+  display: block;
 }
-.hero-section-div .p2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(73, 80, 87);
-    font-weight: 700;
+.hero-section-div .p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(73, 80, 87);
+  font-weight: 700;
 }
 .hero-section-div .p2 a {
-    display: flex;
-    align-items: center;
-    color: rgb(73, 80, 87);
+  display: flex;
+  align-items: center;
+  color: rgb(73, 80, 87);
 }
 .about-us .ctn1 {
-    margin-top: 150px;
+  margin-top: 150px;
 }
-.about-us .ctn1 h1{
-    color: rgb(0, 7, 3);
-    font-size: 2.5rem;
-    line-height: 3rem;
-    text-align: center;
-    margin-bottom: 30px;
+.about-us .ctn1 h1 {
+  /* color: rgb(0, 43, 17); */
+  color: black;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 22px;
 }
 .about-us .ctn1 h1 span {
-    color: rgb(200, 160, 255);
+  color: rgb(200, 160, 255);
 }
 .about-us .ctn1 p {
-    color: rgb(73, 80, 87);
-    margin: 0px auto;
-    max-width: 1000px;
-    text-align: center;
+  color: rgb(73, 80, 87);
+  margin: 0px auto;
+  max-width: 1000px;
+  text-align: center;
 }
 .about-us .ctn1 p span {
-    color: black;
-    font-weight: 700;
+  color: rgb(0, 43, 17);
+  font-weight: 700;
 }
 .about-us .ctn2 {
-    margin-top: 150px;
-    display: grid;
-    grid-template-columns: auto auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .about-us .ctn2 .div1 {
-    margin-left: 150px;
-    max-width: 480px;
+  margin-left: 175px;
+  max-width: 480px;
 }
 .about-us .ctn2 .div1 h1 {
-    margin-bottom: 10px;
-    font-size: 1.875;
-    line-height: 2.25rem;
-    max-width: fit-content;
-    background-color: rgba(220, 255, 160, 0.7);
+  margin-bottom: 10px;
+  font-size: 1.875;
+  line-height: 2.25rem;
+  max-width: fit-content;
+  background-color: rgba(220, 255, 160, 0.7);
 }
-.about-us .ctn2 .div1 p{
+.about-us .ctn2 .div1 p {
+  font-weight: 500;
+  color: rgb(73, 80, 87);
+  line-height: 1.4rem;
+}
+.about-us p .italic {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 400;
+}
+.about-us p .black-span {
+  /* color: black; */
+  color: rgb(1, 14, 6);
+  font-weight: 600;
+}
+.about-us .ctn2 .div2 {
+  margin-right: 250px;
+}
+.about-us .ctn2 .div2 img {
+  margin-top: -30px;
+  max-width: 256px;
+  height: 256px;
+}
+.about-us .ctn3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.about-us .ctn3 .div1 {
+  margin-left: 320px;
+}
+.about-us .ctn3 .div1 img {
+  margin-top: -20px;
+  max-width: 200px;
+  height: 200px;
+}
+.about-us .ctn3 .div2 {
+  margin-right: 100px;
+  max-width: 480px;
+}
+.about-us .ctn3 .div2 h1 {
+  margin-bottom: 10px;
+  font-size: 1.875;
+  line-height: 2.25rem;
+  max-width: fit-content;
+  background-color: rgba(220, 255, 160, 0.7);
+}
+.about-us .ctn3 .div2 p {
+  font-weight: 500;
+  color: rgb(73, 80, 87);
+  line-height: 1.4rem;
+}
+.about-us .ctn4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.about-us .ctn4 .div1 {
+  margin-left: 175px;
+  max-width: 480px;
+}
+.about-us .ctn4 .div1 h1 {
+  margin-bottom: 10px;
+  font-size: 1.875;
+  line-height: 2.25rem;
+  max-width: fit-content;
+  background-color: rgba(220, 255, 160, 0.7);
+}
+.about-us .ctn4 .div1 p {
+  font-weight: 500;
+  color: rgb(73, 80, 87);
+  line-height: 1.25rem;
+}
+.about-us .ctn4 .div2 {
+  margin-right: 250px;
+}
+.about-us .ctn4 .div2 img {
+  margin-top: -30px;
+  max-width: 256px;
+  height: 256px;
+}
+.about-us .ctn5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.about-us .ctn5 .div1 {
+  margin-left: 320px;
+}
+.about-us .ctn5 .div1 img {
+  margin-top: -20px;
+  max-width: 200px;
+  height: 200px;
+}
+.about-us .ctn5 .div2 h1 {
+  margin-bottom: 10px;
+  font-size: 1.875;
+  line-height: 2.25rem;
+  max-width: fit-content;
+  background-color: rgba(220, 255, 160, 0.7);
+}
+.about-us .ctn5 .div2 {
+  margin-right: 100px;
+  max-width: 480px;
+}
+.about-us .ctn5 .div2 p {
     font-weight: 500;
     color: rgb(73, 80, 87);
     line-height: 1.25rem;
 }
-.about-us .ctn2 .div1 p .italic {
-    display: block;
-    margin-top: 10px;
-    font-style: italic;
-    font-weight: 400;
+.written-by {
+  margin-top: 50px;
+  margin-left: 200px;
 }
-.about-us .ctn2 .div1 p .black-span {
-    color: black;
-    font-weight: 600;
+.features {
+  margin-top: 240px;
 }
-.about-us .ctn2 .div2 img {
-    margin-top: -30px;
+.features h1 {
+  text-align: center;
+  /* color: rgb(0, 43, 17); */
+  color: black;
 }
-
-
-
+.features-images {
+  width: 370px;
+  border: 2px solid rgb(233, 236, 239);
+  border-radius: 16px;
+}
+.features .wrapper1 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.features .wrapper1 p {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 390px;
+  color: rgb(108, 117, 125);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.features-span {
+  color: rgb(0, 43, 17);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.features .road-div {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.features .road-div img {
+  width: 500px;
+  border-radius: 20px;
+}
+.features .road-div h1 {
+  color: rgb(0, 43, 17);
+  text-align: start;
+  margin-bottom: 20px;
+}
+.features .road-div .ctn {
+  margin-top: 200px;
+  max-width: 550px;
+}
+.features .road-div .ctn p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(108, 117, 125);
+}
+.features .hero-section-div {
+  margin-top: 70px;
+}
